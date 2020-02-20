@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo样式自定义 | 枯涸庭院</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="嘛，姑且尝了尝Hexo，确实挺香的。不过个人癖好是不喜欢使用他人的主题，因此打算直接基于Landscape进行DIY，毕竟Landscape也不是不堪入目。查看Hexo的文件夹，_config.yml自不必说，部署以来大家都跟这个文件打过交道，几个文件夹里存放的内容也可以从名字看出端倪。 node_modules，推想是类似于拓展的东西。public，看起来是部署后的结构。scaffolds不清楚">
+<meta name="keywords" content="Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo样式自定义">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;04&#x2F;Hexo%E6%A0%B7%E5%BC%8F%E8%87%AA%E5%AE%9A%E4%B9%89&#x2F;index.html">
+<meta property="og:site_name" content="枯涸庭院">
+<meta property="og:description" content="嘛，姑且尝了尝Hexo，确实挺香的。不过个人癖好是不喜欢使用他人的主题，因此打算直接基于Landscape进行DIY，毕竟Landscape也不是不堪入目。查看Hexo的文件夹，_config.yml自不必说，部署以来大家都跟这个文件打过交道，几个文件夹里存放的内容也可以从名字看出端倪。 node_modules，推想是类似于拓展的东西。public，看起来是部署后的结构。scaffolds不清楚">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-07T00:21:39.650Z">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="枯涸庭院" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">枯涸庭院</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Hexo样式自定义" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/11/04/Hexo%E6%A0%B7%E5%BC%8F%E8%87%AA%E5%AE%9A%E4%B9%89/" class="article-date">
+  <time datetime="2019-11-04T12:03:41.000Z" itemprop="datePublished">2019-11-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo样式自定义
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>嘛，姑且尝了尝Hexo，确实挺香的。不过个人癖好是不喜欢使用他人的主题，因此打算直接基于Landscape进行DIY，毕竟Landscape也不是不堪入目。<br>查看Hexo的文件夹，_config.yml自不必说，部署以来大家都跟这个文件打过交道，几个文件夹里存放的内容也可以从名字看出端倪。</p>
+<p>node_modules，推想是类似于拓展的东西。<br>public，看起来是部署后的结构。<br>scaffolds不清楚，不过这与本文的目的自定义样式无关。<br>source，博文的MD文件就存放在这里面。<br>themes，主题，本次的目标。`</p>
+<p>themes文件夹内存放的是主题，找到你希望修改样式的主题进入主题的目录观察，继续观察目录下的文件名。</p>
+<p>_config.yml，熟悉的名称，但这是属于主题的配置文件。可以通过修改这个页面增加一些相关页面。<br>languages，语言，尝试修改过这个目录下的zh-CN.yml，但似乎没留意到有什么效果，待定。<br>layout，布局，html文件。<br>scripts，脚本，里面存放的是fancybox.js。<br>source这个文件夹里则存放css、js以及fancybox相关的一些东西。</p>
+<h4>　_config.yml </h4>
+这个文件属于配置文件，在不查询资料的情况下不建议进行修改。不过在menu下新增内容的话，会在导航栏上增加相应的内容。
+举个例子：
+
+<p>menu:<br>  Home: /<br>  Archives: /archives<br>  <font color="red">About: /about</font></p>
+<p>在这里增加一个About，那么在导航栏上会在Archives后面增加一个About的按钮，点击将会显示hexo根目录下的source/about/index.md的内容（为什么又是MD……）。其他自然同理，比如你想要一个叫Zatracenie的按钮，跳转过去后显示<code>source/Rei/index.md</code>的内容，那只需要改成<code>Zatracenie: /Rei</code>即可。</p>
+<h4 id="layout"><a href="#layout" class="headerlink" title="layout"></a>layout</h4><p>这个文件夹内，正如之前所说的，存放的内容是布局。里面的文件名后缀是ejs，如果懂得ejs的朋友修改起来自然如虎添翼，但就算是只懂皮毛h5的人，也可以在不乱动其他内容的情况下，写一些html5。比如新增一个返回顶部的按钮，在右下角，那就只需要写个div，css固定在右下角，onclick事件触发JS就好。附上此处右下角的奏姐的代码：</p>
+<pre><code>&lt;div id=&quot;sidepicdiv&quot; class=&quot;nomobile&quot; style=&quot;
+bottom: 1%;
+right: 0.8%;
+z-index: 1;
+display: block;
+position: fixed;
+max-width: 225px;
+max-height: 250px;
+width:20%;&quot;&gt;
+    &lt;img src=&quot;/css/images/ttnkz.png&quot; id=&quot;sidepic&quot; style=&quot;width:100%;height:100%&quot;/&gt;
+&lt;/div&gt;</code></pre><h4 id="source"><a href="#source" class="headerlink" title="source"></a>source</h4><p>这个文件夹里，css文件夹中是styl文件，是Stylus预处理器的文件，大致进去扫了扫，或许类似于less，自己学css的时候就一直在想为什么没有很方便就能获取元素长宽存放在某个变量内的方式，结果现在也算是接触到了……与ejs同样的理由，没有学过，因此就不乱瞎指路了，但有CSS基础的人应该也能编上一两句才对。CSS文件夹下着重提及一下_variables.styl这个文件夹，用于存放所有全局变量的文件。倘若你要修改Landscape的banner，除了在layout里写<code>&lt;style&gt;&lt;/style&gt;</code>覆盖以外，还可以直接来到这里修改这里的banner-url的值，其他的内容诸如颜色之类的也可以在这里全局控制。</p>
+<p>js文件夹内只有一个script.js的文件，里面是JavaScript代码，将会在大概页脚的地方引入到页面内，此处右下角的奏姐的淡入淡出就是在这里添加的代码。Hexo支持JQ，在这里也可以看得到全是JQuery的代码。</p>
+<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>对于theme文件夹内的东西探究的进度姑且就到此为止，以后找到新的理解或许会在这里补充。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/11/04/Hexo%E6%A0%B7%E5%BC%8F%E8%87%AA%E5%AE%9A%E4%B9%89/" data-id="ck6unx0go0005l4oqa23ob8fu" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/11/05/GBF%E7%AE%80%E4%BB%8B%E5%BC%80%E5%9D%91/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          GBF简介开坑
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/11/02/CGSS%E6%B8%B8%E7%8E%A9%E8%AE%B0%E5%BD%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">CGSS游玩记录</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/CGSS/" rel="tag">CGSS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GBF/" rel="tag">GBF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/CGSS/" style="font-size: 10px;">CGSS</a> <a href="/tags/GBF/" style="font-size: 10px;">GBF</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/11/05/GBF%E7%AE%80%E4%BB%8B%E5%BC%80%E5%9D%91/">GBF简介开坑</a>
+          </li>
+        
+          <li>
+            <a href="/2019/11/04/Hexo%E6%A0%B7%E5%BC%8F%E8%87%AA%E5%AE%9A%E4%B9%89/">Hexo样式自定义</a>
+          </li>
+        
+          <li>
+            <a href="/2019/11/02/CGSS%E6%B8%B8%E7%8E%A9%E8%AE%B0%E5%BD%95/">CGSS游玩记录</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+<div id="sidepicdiv" class="nomobile" style="bottom: 1%;right: 0.8%;z-index: 1;display: block;position: fixed;max-width: 225px;max-height: 250px;width:20%;"><img src="/css/images/ttnkz.png" id="sidepic" style="width:100%;height:100%"/></div>
+
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 EdanaK<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<style type="text/css">
+div#banner{
+  background:url(/css/images/Forest.jpg);
+  background-size:cover;
+}
+</style>
+<script src="/js/isMobile.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
